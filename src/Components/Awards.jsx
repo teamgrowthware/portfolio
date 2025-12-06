@@ -149,8 +149,8 @@ const certificatesData = [
     icon: <Medal size={20} />,
   },
   {
-    title: "Guest Speaker – Tech & Entrepreneurship",
-    description: "Invited speaker at Sage University.",
+    title: "Guest Speaker – TedX at Sage university",
+    description: "Invited speaker of tedX at Sage University 2024.",
     year: "Speaking Engagement",
     icon: <Sparkles size={20} />,
   },

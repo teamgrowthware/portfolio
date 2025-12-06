@@ -7,11 +7,11 @@ export default function ExpertiseShowcase() {
     { id: 'ก2', title: 'WEB DEVELOPER' },
     { id: 'ก3', title: 'DIGITAL MARKETING' },
     { id: 'ก4', title: 'UI/UX' },
-    { id: 'ก5', title: 'GRAPHIX DESIGNING' },
+    { id: 'ก5', title: 'GRAPHIC DESIGNING' },
     { id: 'ก6', title: 'ETHICAL HACKING'},
     { id: 'ก7', title: 'WORDPRESS' },
     { id: 'ก8', title: 'SHOPIFY' },
-    { id: 'ก9', title: 'APP DEVELOPER'}
+    { id: 'ก9', title: 'BUSINESS DEVELOPMENT EXECUTIVE'}
   ];
 
   return (
