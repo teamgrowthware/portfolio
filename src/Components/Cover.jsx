@@ -1,6 +1,6 @@
 import About from "./About";
 import Skills from "./Skills";
-import Journey from "./journey";
+import Journey from "./Journey";
 import Projects from "./Projects";
 import Awards from "./Awards";
 import { Instagram, Linkedin, MessageCircle } from "lucide-react";

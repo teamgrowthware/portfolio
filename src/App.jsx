@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Awards from "./Components/Awards";
-import Journey from "./Components/journey";
+import Journey from "./Components/Journey";
 
 export default function App() {
   return (
