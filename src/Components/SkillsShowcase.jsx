@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 export default function SkillsShowcaseSlider() {
   const skills = [
     { icon: "⚛️", title: "React.js", desc: "Building dynamic UI", level: 90 },
@@ -8,7 +7,18 @@ export default function SkillsShowcaseSlider() {
     { icon: "📷", title: "Photoshop", desc: "Graphic design", level: 75 },
     { icon: "🌐", title: ".NET", desc: "Backend development", level: 70 },
     { icon: "🔍", title: "SEO", desc: "Search optimization", level: 85 },
-    { icon: "🛡️", title: "Ethical Hacking", desc: "Security testing", level: 65 },
+    {
+  icon: "🛍️",
+  title: "Shopify",
+  desc: "Store Setup & Customization",
+  level: 80
+},
+{
+  icon: "🌐",
+  title: "WordPress",
+  desc: "Theme Customization, Plugins, SEO",
+  level: 70
+}
   ];
 
   const [index, setIndex] = useState(0);

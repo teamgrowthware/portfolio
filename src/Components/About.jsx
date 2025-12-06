@@ -25,12 +25,12 @@ export default function About() {
 
           {/* LEFT */}
           <div className="flex-1 space-y-6 text-center lg:text-left">
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
               <span className="block bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-500 bg-clip-text text-transparent">
-                UI/UX
+                CREACTIVE
               </span>
               <span className="block bg-gradient-to-r from-indigo-400 to-blue-500 bg-clip-text text-transparent">
-                DESIGNER
+               TECHNOLOGIST
               </span>
             </h1>
 
@@ -50,11 +50,15 @@ export default function About() {
           {/* CENTER IMAGE */}
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 blur-2xl opacity-30 rounded-full group-hover:opacity-50 transition" />
+           
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500"
-              alt="Designer"
-              className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full object-cover border-4 border-blue-500/20 shadow-2xl group-hover:scale-105 transition"
-            />
+  src="/images/pratyaksh.jpg"
+  alt="Pratyaksh Lutare"
+  className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full object-cover 
+             border-4 border-blue-500/20 shadow-2xl 
+             group-hover:scale-105 transition"
+/>
+
             <span className="absolute -bottom-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
               5+ Years
             </span>
@@ -68,7 +72,7 @@ export default function About() {
                 FUTURE
               </span>
             </h3>
-            <p className="text-gray-400 max-w-md ml-auto">
+            <p className="text-gray-300 text-lg max-w-md mx-auto lg:mx-0">
               Seamless UI/UX designs that convert users and grow brands.
             </p>
           </div>
@@ -102,21 +106,11 @@ export default function About() {
           <h2 className="text-4xl sm:text-5xl font-black">
             Let’s Build Something{" "}
             <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
-              Amazing
+              Amazing crafted with code, creativity, and purpose.
             </span>
           </h2>
 
-          <div className="flex justify-center gap-6 flex-wrap">
-            {["Instagram", "LinkedIn", "Twitter"].map((s) => (
-              <a
-                key={s}
-                href="#"
-                className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold hover:scale-105 transition shadow-lg"
-              >
-                {s}
-              </a>
-            ))}
-          </div>
+          
         </div>
       </div>
     </section>

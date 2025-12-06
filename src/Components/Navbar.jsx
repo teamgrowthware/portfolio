@@ -1,36 +1,3 @@
-// import { NavLink } from "react-router-dom";
-
-// export default function Navbar() {
-//   const links = [
-//     { name: "Home", path: "/" },
-//     { name: "About", path: "/about" },
-//     { name: "Skills", path: "/skills" },
-//     { name: "Journey", path: "/journey" },
-//    { name: "Projects", path: "/projects" },
-//     { name: "Awards", path: "/awards" },
-    
-//   ];
-
-//   return (
-//     <nav className="fixed top-0 w-full z-50 px-10 py-6 flex justify-between items-center text-sm uppercase tracking-widest text-gray-300">
-//       {links.map((item) => (
-//         <NavLink
-//           key={item.name}
-//           to={item.path}
-//           className={({ isActive }) =>
-//             `cursor-pointer transition ${
-//               isActive ? "text-white" : "text-gray-400 hover:text-white"
-//             }`
-//           }
-//         >
-//           {item.name}
-//         </NavLink>
-//       ))}
-//     </nav>
-//   );
-// }
-
-
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
@@ -52,7 +19,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center">
         {/* LOGO / NAME */}
         <div className="text-white font-semibold tracking-wider">
-          Portfolio
+         PRATYAKSH LUTARE
         </div>
 
         {/* DESKTOP MENU */}
