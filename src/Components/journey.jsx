@@ -5,13 +5,11 @@ export default function Journey() {
   const [activeTab, setActiveTab] = useState("freelance");
 
   return (
-    <section
-  id="journey"
-  className="relative z-10 w-screen min-h-screen bg-black px-6 py-20"
->
-      {/* Heading */}
-      <h1 className="text-[#60A5FA] text-4xl md:text-5xl font-bold mb-16 text-center">
-        My Journey
+    <div
+
+   className="relative z-10 w-screen min-h-screen bg-black px-6 py-20">   
+       <h1 className="text-[#60A5FA] text-4xl md:text-5xl font-bold mb-16 text-center">
+         My Journey
       </h1>
 
 
@@ -76,7 +74,7 @@ export default function Journey() {
           </>
         )}
       </div>
-    </section>
+    </div>
   );
 }
 
