@@ -9,6 +9,7 @@ import Projects from "./Components/Projects";
 import Awards from "./Components/Awards";
 
 
+
 export default function App() {
   return (
     <>
@@ -24,7 +25,10 @@ export default function App() {
         <Route path="/journey" element={<Journey />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/awards" element={<Awards />} />
+       
       </Routes>
     </>
+   
   );
 }
+

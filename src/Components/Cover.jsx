@@ -3,7 +3,11 @@ import Skills from "./Skills";
 import Journey from "./Journey";
 import Projects from "./Projects";
 import Awards from "./Awards";
-import { Instagram, Linkedin, MessageCircle } from "lucide-react";
+import Footer from "./Footer";
+
+
+import { Instagram,Mail, Linkedin, MessageCircle } from "lucide-react";
+
 
 export default function LandingPage() {
   return (
@@ -61,6 +65,21 @@ export default function LandingPage() {
                 +91 7049820057
               </a>
             </p>
+
+<p className="text-sm text-gray-400 flex items-center gap-2">
+  <Mail className="w-4 h-4 text-blue-400" />
+  <a
+    href="mailto:pratyaksh@vortexcubes.com"
+    className="hover:text-blue-400 transition font-medium"
+  >
+    pratyaksh311@gmail.com
+  </a>
+</p>
+
+
+
+
+
           </div>
         </div>
       </div>
@@ -74,6 +93,8 @@ export default function LandingPage() {
   <Journey />
   <Projects />
   <Awards />
+  <Footer/>
+  
 </div>
 
 
@@ -101,6 +122,8 @@ export default function LandingPage() {
           animation: scroll 25s linear infinite;
         }
       `}</style>
+
+     
     </div>
   );
 }

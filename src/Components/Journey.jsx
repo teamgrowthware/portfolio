@@ -29,7 +29,7 @@ export default function Journey() {
           >
             {tab === "freelance"
               ? "Freelance Journey"
-              : "Co-Founder Journey"}
+              : "Founder Journey"}
           </button>
         ))}
       </div>
@@ -41,17 +41,17 @@ export default function Journey() {
             <Timeline
               year="2020"
               title="Started Freelancing"
-              desc="Learning & exploring design world"
+              desc="Learning & exploring design world."
             />
             <Timeline
               year="2021–22"
               title="Professional Freelancer"
-              desc="43+ clients globally"
+              desc="43+ clients globally."
             />
             <Timeline
               year="2022–25"
               title="AI Integratorz"
-              desc="Co-founded & scaled to 97 projects"
+              desc="Co-founded & scaled to 97 projects."
             />
           </>
         ) : (
@@ -59,17 +59,17 @@ export default function Journey() {
             <Timeline
               year="2022"
               title="Unique Events Company"
-              desc="Launched & handled 52 events"
+              desc="Launched & handled 52 events."
             />
             <Timeline
               year="2024"
               title="Marshall – CEO"
-              desc="Leading large scale events"
+              desc="An IT company specializing in modern software solutions."
             />
             <Timeline
               year="2025"
-              title="VertexCubes"
-              desc="Founded AI-focused startup"
+              title="VortexCubes"
+              desc="Founded AI-focused startup.“VortexCubes transforms ideas into powerful digital solutions through modern technology.”"
             />
           </>
         )}
