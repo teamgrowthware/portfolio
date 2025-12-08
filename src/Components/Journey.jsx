@@ -51,7 +51,7 @@ export default function Journey() {
             <Timeline
               year="2022–25"
               title="AI Integratorz"
-              desc="Co-founded & scaled to 97 projects."
+              desc="founded & scaled to 97 projects."
             />
           </>
         ) : (
